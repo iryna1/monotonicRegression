@@ -7,6 +7,7 @@ Created on Mon Aug  1 20:44:02 2016
 fVars="VarsDengue20160919.py"
 from fVars import *
 #Mislav was here
+#Iryna was also here
 import pandas as pd
 import os
 import glob  # to list files with specific names
