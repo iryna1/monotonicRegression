@@ -6,7 +6,7 @@ Created on Mon Aug  1 20:44:02 2016
 """
 fVars="20160909VarsDengue.py"
 from fVars import *
-
+"""
 import pandas as pd
 import os
 import glob  # to list files with specific names
@@ -481,4 +481,3 @@ for bestK in lbestK:
     plt.savefig('/Users/Iryna/Desktop/myimage.pdf', format="pdf", dpi=1200)
     out=pd.DataFrame([roc_auc,a], index=["auc", "aupr"], columns=[bestK])
     out.to_csv(dirShared+"PerfMeasures_k="+str(bestK)+".txt" , sep= "\t")
-   
