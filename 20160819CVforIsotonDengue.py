@@ -4,7 +4,7 @@ Created on Mon Aug  1 20:44:02 2016
 
 @author: iryna
 """
-fVars="20160909VarsDengue.py"
+fVars="VarsDengue20160919.py"
 from fVars import *
 """
 import pandas as pd
